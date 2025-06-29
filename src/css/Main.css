@@ -1,0 +1,14 @@
+.section-main {
+  display: flex;
+  align-items: stretch;
+}
+.sidebar-container {
+  min-height: 100dvh;
+  background-color: whitesmoke;
+  padding: 30px;
+  height: auto;
+}
+.content-container {
+  padding: 30px;
+  flex: 1;
+}
