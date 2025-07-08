@@ -4,6 +4,7 @@
 }
 .sidebar-container {
   min-height: 100dvh;
+  /* height: 100vh; */
   background-color: whitesmoke;
   padding: 30px;
   height: auto;

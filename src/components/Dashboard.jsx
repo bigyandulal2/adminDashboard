@@ -43,21 +43,21 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
 const orders = [
   {
     id: "00123",
-    customer: "John D.",
+    customer: "Bigyan",
     date: "Jun 25",
     amount: "$250",
     status: "Delivered",
   },
   {
     id: "00124",
-    customer: "Alice M.",
+    customer: "sujan",
     date: "Jun 25",
     amount: "$400",
     status: "Pending",
   },
   {
     id: "00125",
-    customer: "Steve S.",
+    customer: "sita",
     date: "Jun 26",
     amount: "$600",
     status: "Delivered",
