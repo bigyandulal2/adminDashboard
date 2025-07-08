@@ -48,3 +48,27 @@
 .status.inactive {
   background-color: #dc3545;
 }
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Keep the rest of your table styling */
+@media screen and (max-width: 960px) {
+  .customers-container {
+    padding: 10px;
+    width: 500px;
+  }
+
+  .customers-table {
+    width: 100%;
+    min-width: 700px; /* Prevents content from squishing too much */
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .customers-container {
+    padding: 0;
+    width: 100%;
+  }
+}

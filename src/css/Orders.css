@@ -53,3 +53,18 @@
 .status.cancelled {
   background-color: #dc3545;
 }
+@media screen and (max-width: 960px) {
+  .orders-container {
+    width: 400px;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 520px) {
+  .orders-container {
+    padding: 0;
+    width: 100%;
+  }
+  .orders-table {
+    overflow-x: scroll;
+  }
+}

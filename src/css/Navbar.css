@@ -63,3 +63,11 @@
 .navbar-notification:hover {
   transform: scale(1.1);
 }
+@media screen and (max-width: 520px) {
+  .navbar-dashboard {
+    display: none;
+  }
+  .navbar-items {
+    padding-inline: 0;
+  }
+}

@@ -54,3 +54,16 @@
   background-color: #ffc107;
   color: black;
 }
+
+@media screen and (max-width: 960px) {
+  .products-container {
+    width: 400px;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products-container {
+    padding: 0;
+    width: 100%;
+  }
+}

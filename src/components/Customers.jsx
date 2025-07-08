@@ -42,34 +42,36 @@ export default function Customers() {
       <h2 className="customers-title">
         <IoManSharp /> Customer List
       </h2>
-      <table className="customers-table">
-        <thead>
-          <tr>
-            <th>Customer ID</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-            <th>Total Orders</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          {customers.map((customer) => (
-            <tr key={customer.id}>
-              <td>{customer.id}</td>
-              <td>{customer.name}</td>
-              <td>{customer.email}</td>
-              <td>{customer.phone}</td>
-              <td>{customer.orders}</td>
-              <td>
-                <span className={`status ${customer.status.toLowerCase()}`}>
-                  {customer.status}
-                </span>
-              </td>
+      <div className="table-responsive">
+        <table className="customers-table">
+          <thead>
+            <tr>
+              <th>Customer ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Total Orders</th>
+              <th>Status</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {customers.map((customer) => (
+              <tr key={customer.id}>
+                <td>{customer.id}</td>
+                <td>{customer.name}</td>
+                <td>{customer.email}</td>
+                <td>{customer.phone}</td>
+                <td>{customer.orders}</td>
+                <td>
+                  <span className={`status ${customer.status.toLowerCase()}`}>
+                    {customer.status}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
